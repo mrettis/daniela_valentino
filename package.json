@@ -1,0 +1,18 @@
+{
+  "name": "jhon-doe",
+  "version": "1.0.0",
+  "description": "MOdern Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "Marlon",
+    "Rettis"
+  ],
+  "author": "Marlon Rettis",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
