@@ -1,6 +1,8 @@
 // wide screems
 @include mediaXl{
-
+.projects {
+  grid-template-columns: repeat(4, 1fr);
+}
 }
 //Desktop and Laptops
 @include mediaLg{
@@ -12,6 +14,10 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
   }
   }
 //tablets small laptops
@@ -51,6 +57,10 @@
        'job3';
        grid-template-columns: 1fr;
      }
+
+     .projects {
+       grid-template-columns: repeat(2, 1fr);
+     }
   }
 
 // Smart Phones
@@ -58,6 +68,22 @@
 
 main#home h1 {
   font-size: 4rem;
-  margin-top: 10vh;
+  margin-top: 15vh;
+  padding-top: 15px;
+}
+
+main#about h1{
+    font-size: 4rem;
+}
+
+main#work h1{
+    font-size: 4rem;
+}
+
+
+
+
+.projects {
+  grid-template-columns:1fr;
 }
 }
