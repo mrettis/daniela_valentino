@@ -128,7 +128,31 @@ main{
   }
 }
 
-//Button stylesheet
+//contact page
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut1;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: darken($primary-color, 20);
+      color: #fff;
+    }
+  }
+}
+
+//Button styles
 .btn{
   display:block;
   padding: 0.5rem 1rem;
