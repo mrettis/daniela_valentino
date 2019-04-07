@@ -1,12 +1,11 @@
 {
   "name": "danielaValentino",
   "version": "1.0.0",
-  "description": "MOdern Portfolio",
+  "description": "Modern Portfolio",
   "main": "index.js",
-  "homepage": "https://mrettis.github.io/daniela_valentino",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+   "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+
   },
   "keywords": [
     "Marlon",
