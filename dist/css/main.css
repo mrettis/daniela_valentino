@@ -191,6 +191,13 @@ main {
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid; }
 
+.job p, h5 {
+  text-align: justify;
+  margin: 20px  20px; }
+
+#box-tilte {
+  margin-left: 20px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -303,4 +310,8 @@ main {
     font-size: 4rem;
     padding-top: 20px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .bio P {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 10px; } }

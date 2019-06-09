@@ -70,6 +70,7 @@ main{
   }
 }
 
+// about me 
 
 .about-info{
   display: grid;
@@ -96,14 +97,18 @@ main{
     margin-left: 30px;
   }
 
+  // Art - Bio Paragraphs
 .bio P{
   font-size: 16px;
   text-align: justify;
   margin-left: 30px;
+ 
 }
 
+// grid areas for  cv
 .job-1{
   grid-area: job1;
+  
 }
 
 .job-2{
@@ -118,9 +123,20 @@ main{
   background: lighten($primary-color, 5);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
-}
+  
+  }
 
-// Work/Projects
+  .job p, h5{
+    text-align: justify;
+    margin: 20px  20px;
+  
+  }
+  
+  #box-tilte{
+    margin-left: 20px;
+  }
+
+// Work/Projects Images
 
 .projects{
   display: grid;
